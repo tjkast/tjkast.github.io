@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Sara Liu">
+
+    <title>Profile Page - MeowMates</title>
+
+    <!-- Custom styles for this template -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="css/login.css" rel="stylesheet">
+<link href="css/product.css" rel="stylesheet">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/product/">
+
+    <!-- Bootstrap core CSS -->
+
+
+  </head>
+ <body>
+<nav class="site-header sticky-top py-1">
+  <div class="container d-flex flex-column flex-md-row justify-content-between">
+    <a class="py-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24" focusable="false"><title>MeowMates</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+    </a>
+        <a class="py-2 d-none d-md-inline-block" ></a>
+    <a class="py-2 d-none d-md-inline-block" ></a>
+    <a class="py-2 d-none d-md-inline-block"></a>
+
+    <a class="py-2 d-none d-md-inline-block" href="https://user.tjhsst.edu/meowmates">Home</a>
+    <a class="py-2 d-none d-md-inline-block" href="https://user.tjhsst.edu/meowmates/match">Find Matches</a>
+  </div>
+</nav>
+<!-- REGISTRATION FORM -->
+<div class="text-center" style="padding:50px 0">
+	<div class="logo">Add a New Pet</div>
+	<!-- Main Form -->
+	<div class="login-form-1">
+		<form id="petregister-form" class="text-left">
+			<div class="login-form-main-message"></div>
+			<div class="main-login-form">
+				<div class="login-group">
+					<div class="form-group">
+						<label for="reg_username" class="sr-only">Pet Name</label>
+						<input type="text" class="form-control" id="reg_username" name="reg_username" placeholder="Pet Name">
+					</div>
+					<div class="form-group">
+						<label for="reg_img" class="sr-only">Pet Image Link</label>
+						<input type="text" class="form-control" id="reg_img" name="reg_img" placeholder="Pet Image Link">
+					</div>
+					<div class="form-group">
+						<label for="reg_ptype" class="sr-only">Pet Type</label>
+						<input type="text" class="form-control" id="reg_ptype" name="reg_ptype" placeholder="Pet Type">
+					</div>
+					<div class="form-group">
+						<label for="reg_hobby" class="sr-only">Location</label>
+						<input type="text" class="form-control" id="reg_location" name="reg_location" placeholder="Location">
+					</div>
+					<div class="form-group">
+						<label for="reg_hobby" class="sr-only">Favorite Hobby</label>
+						<input type="text" class="form-control" id="reg_hobby" name="reg_hobby" placeholder="Favorite Hobby">
+					</div>
+					<div class="form-group">
+						<label for="reg_bio" class="sr-only">Insert your bio here!</label>
+						<input type="text" class="form-control-bio" id="reg_bio" name="reg_bio" placeholder="Insert your bio here!">
+					</div>
+				</div>
+				<button type="submit"  class="login-button" onclick = "petReg()"><i class="fa fa-chevron-right"></i></button>
+			</div>
+
+		</form>
+		<div id= "showerrorreg"></div>
+	</div>
+	<!-- end:Main Form -->
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.13.1/jquery.validate.min.js"></script>
+
+    <script src="js/petreg.js"></script>
+</body>
+</html>
+
+
+
+

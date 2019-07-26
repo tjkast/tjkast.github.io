@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS owners;
+CREATE TABLE owners(id VARCHAR(100), password VARCHAR(100), email VARCHAR(100), fullname VARCHAR(100), PRIMARY KEY(id));

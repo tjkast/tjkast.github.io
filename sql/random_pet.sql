@@ -1,0 +1,13 @@
+DROP PROCEDURE IF EXISTS rand_pet;
+
+DELIMITER $$
+
+CREATE PROCEDURE rand_pet()
+
+BEGIN
+    SELECT * FROM pets
+    ORDER BY RAND()
+    LIMIT 1;
+END$$
+
+DELIMITER ;
